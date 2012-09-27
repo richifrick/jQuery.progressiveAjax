@@ -8,7 +8,7 @@ How to use it
 It's a simple jQuery-plugin, so all you need to call is $.progressiveAjax({ theParam: itsValue });.<br />
 There are 2 parameters which must be given: the url which defines the url (no big surprise here)<br />
 and the progFunc which defines the processing of each interval.
-Speaking of the interval: you can set how often you want to fire the progFunc, along it other params:
+Speaking of parameters and the interval: you can set these options:
 
 Parameters
 ======================
@@ -26,7 +26,7 @@ Example
 ======================
 In this example, we're going to parse an rss-feed.<br />
 Keep in mind that this is a bad example as we're just processing the new parts of the response.<br />
-So we're going to loose some items, but out of simplification I won't add some logic to catch all.<br />
+So we're going to loose some items, but out of simplification I won't add the logic to catch all.<br />
 Secondly, you should prefer regex instead o doing everything with jQuery like here:
 
     var url = "http://www.computerweekly.com/rss/All-Computer-Weekly-content.xml";
