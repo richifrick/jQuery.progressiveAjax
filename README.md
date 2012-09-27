@@ -26,7 +26,7 @@ Example
 ======================
 In this example, we're going to parse an rss-feed.<br />
 Keep in mind that this is a bad example as we're just processing the new parts of the response.<br />
-So we're going to loose some items, but out of simplification I won't add the logic to catch all.<br />
+So we're perhaps going to loose some items, but out of simplification I won't add the logic to catch all.<br />
 Secondly, you should prefer regex instead o doing everything with jQuery like here:
 
     var url = "http://www.computerweekly.com/rss/All-Computer-Weekly-content.xml";
